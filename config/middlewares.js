@@ -7,18 +7,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "img-src": [
-            "'self'",
-            "data:",
-            "blob:",
-            "https://strapi-images-joao.s3.us-east-1.amazonaws.com/",
-          ],
-          "media-src": [
-            "'self'",
-            "data:",
-            "blob:",
-            "https://strapi-images-joao.s3.us-east-1.amazonaws.com/",
-          ],
+          "img-src": ["'self'", "data:", "blob:", "*.amazonaws.com"],
+          "media-src": ["'self'", "data:", "blob:"],
           upgradeInsecureRequests: null,
         },
       },
