@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "batatas",
+  "info": {
+    "singularName": "batata",
+    "pluralName": "batatas",
+    "displayName": "batata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "senha": {
+      "type": "password"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
