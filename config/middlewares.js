@@ -1,4 +1,5 @@
 module.exports = [
+  "strapi::errors",
   {
     name: "strapi::security",
     config: {
@@ -10,29 +11,24 @@ module.exports = [
             "'self'",
             "data:",
             "blob:",
-            "dl.airtable.com",
-            "strapi-images-joao.s3.us-east-1.amazonaws.com",
+            "https://strapi-images-joao.s3.us-east-1.amazonaws.com/",
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
-            "dl.airtable.com",
-            "strapi-images-joao.s3.us-east-1.amazonaws.com",
+            "https://strapi-images-joao.s3.us-east-1.amazonaws.com/",
           ],
           upgradeInsecureRequests: null,
         },
       },
     },
   },
-  "strapi::errors",
-  "strapi::security",
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
   "strapi::body",
-  "strapi::session",
   "strapi::favicon",
   "strapi::public",
 ];
